@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="greeting">What do you want to watch?</string>
+    <string name="now_playing">Now playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="top_rated">Top rated</string>
+    <string name="popular">Popular</string>
+    <string name="search">Search</string>
+    <string name="detail">Detail</string>
+    <string name="watch_list">Watch list</string>
+    <string name="about_movie">About Movie</string>
+    <string name="reviews">Reviews</string>
+    <string name="cast">Cast</string>
+    <string name="crews">Crews</string>
+    <string name="by_rating">By rating</string>
+    <string name="descending_order">Descending order</string>
+    <string name="new_ones_first">New ones first</string>
+    <string name="first_the_old_ones">First the old ones</string>
+    <string name="find_your">Find your movie by Type title ,\n categories, years, etc </string>
+    <string name="sorry_movie">We are sorry,\n we can not find the movie :(</string>
+    <string name="sorry_room">There is no movie yet!</string>
+    <string name="filter">Filter</string>
+</resources>
