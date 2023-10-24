@@ -277,7 +277,8 @@ fun LoadingMainScreen(
     modifier: Modifier = Modifier
 ) {
     Box(
-        modifier = modifier, contentAlignment = Alignment.Center
+        modifier = modifier.background(if (isSystemInDarkTheme()) Background else Color.White),
+        contentAlignment = Alignment.Center
     ) {
         CircularProgressIndicator()
     }

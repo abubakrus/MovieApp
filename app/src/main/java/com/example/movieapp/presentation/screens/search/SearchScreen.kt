@@ -125,11 +125,6 @@ fun SearchScreen(
                 }
             }
         }
-//        if (uiState.movies.isEmpty()) {
-//            NoResultsStub()
-//        } else {
-//
-//        }
     }
 }
 
@@ -138,7 +133,7 @@ fun LoadingScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Background),
+            .background(if (isSystemInDarkTheme()) Background else Color.White),
         contentAlignment = Alignment.Center
     ) {
         CircularProgressIndicator()
