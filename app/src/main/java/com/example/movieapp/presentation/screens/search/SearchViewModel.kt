@@ -2,7 +2,7 @@ package com.example.movieapp.presentation.screens.search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.movieapp.data.cloud.mappers.toDomain
+import com.example.movieapp.data.cloud.mappers.toUi
 import com.example.movieapp.domain.usecases.SearchMoviesByQueryUseCase
 import com.example.movieapp.presentation.models.MovieUi
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -46,7 +46,7 @@ class SearchViewModel @Inject constructor(
             val movies = searchMoviesByQueryUseCase.searchByQuery(query)
             _uiStateFlow.tryEmit(
                 _uiStateFlow.value.copy(
-                    movies = movies.toDomain(),
+                    movies = movies.toUi(),
                     isLoading = false
                 )
             )

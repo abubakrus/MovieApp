@@ -8,7 +8,7 @@ data class MovieUi(
     val releaseDate: String,
     val title: String,
     val voteAverage: Double,
-    val runtime: Int
+    val runtime: Int,
 ) {
 
     fun isUnknown() = this == unknown
