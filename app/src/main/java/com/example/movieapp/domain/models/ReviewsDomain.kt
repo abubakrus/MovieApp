@@ -1,6 +1,8 @@
 package com.example.movieapp.domain.models
 
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import java.time.LocalDateTime
 import java.util.UUID
 
@@ -13,6 +15,7 @@ data class ReviewsDomain(
 
     ) {
     companion object {
+        @RequiresApi(Build.VERSION_CODES.O)
         val unknown = ReviewsDomain(
             author = "cc,",
             content = "dd",
