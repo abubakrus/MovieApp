@@ -8,6 +8,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.movieapp.R
 
+val LedgerFont = FontFamily(Font(R.font.ledger_regular))
+
 val SF_PRO_TEXT = FontFamily(
     Font(R.font.sf_pro_text_regular, FontWeight.Normal),
     Font(R.font.sf_pro_text_bold, FontWeight.Bold),

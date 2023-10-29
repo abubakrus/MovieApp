@@ -63,6 +63,7 @@ import com.example.movieapp.presentation.models.FetchTypeUi
 import com.example.movieapp.presentation.models.MovieUi
 import com.example.movieapp.presentation.models.MovieCategoriesModels
 import com.example.movieapp.presentation.theme.Background
+import com.example.movieapp.presentation.theme.LedgerFont
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
@@ -209,7 +210,8 @@ private fun LoadedMainScreen(
                                     style = MaterialTheme.typography.bodyLarge.copy(
                                         color = if (isSystemInDarkTheme()) Color.White
                                         else Color.Black
-                                    )
+                                    ),
+                                    fontFamily = LedgerFont
                                 )
                             },
                         )
