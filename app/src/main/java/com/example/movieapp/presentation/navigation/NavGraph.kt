@@ -82,7 +82,8 @@ fun SetupNavGraph(
                 )
             }
             composable(
-                route = DetailDestination.routeWithArgs, arguments = DetailDestination.arguments
+                route = DetailDestination.routeWithArgs,
+                arguments = DetailDestination.arguments
             ) { navBackStackEntry ->
                 val movieId = navBackStackEntry.arguments?.getInt(DetailDestination.movieIdKey) ?: 0
                 val viewModel: DetailViewModel = hiltViewModel()
@@ -97,7 +98,6 @@ fun SetupNavGraph(
                     onFilterClick = viewModel::onFilterClick
                 )
             }
-
         }
     }
 }

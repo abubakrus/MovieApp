@@ -162,7 +162,7 @@ private fun LoadedMainScreen(
                 Spacer(modifier = Modifier.height(12.dp))
             }
             Column(
-                modifier = Modifier
+                modifier =  Modifier
                     .height(screenHeight)
                     .background(if (isSystemInDarkTheme()) Background else Color.White),
             ) {

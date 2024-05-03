@@ -67,7 +67,6 @@ class DetailViewModel @Inject constructor(
             val actorsDomain = fetchMoviePeoplesUseCase(id)
             val reviews = fetchMovieReviewsUseCase(id)
             reviewersFlow.tryEmit(reviews)
-
             if (movieDetail == null) {
                 _uiStateFlow.tryEmit(DetailsScreenUiState.Error("Sorry error"))
             } else {

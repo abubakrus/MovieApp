@@ -48,8 +48,7 @@ fun MovieDetailsCache.toDomain(): MovieDetailsDomain = this.run {
         originalTitle = originalTitle,
         overview = overview,
         popularity = popularity,
-        posterPath =
-        posterPath,
+        posterPath = posterPath,
         releaseDate = releaseDate,
         runtime = runtime,
         status = status,

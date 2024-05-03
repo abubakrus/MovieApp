@@ -1,5 +1,6 @@
 package com.example.movieapp.presentation.screens.main
 
+import coil.compose.AsyncImage
 import com.example.movieapp.presentation.models.MovieUi
 
 sealed class MainScreenUiState {
@@ -16,3 +17,4 @@ sealed class MainScreenUiState {
         val message: String
     ) : MainScreenUiState()
 }
+

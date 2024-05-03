@@ -105,6 +105,7 @@ fun DetailScreen(
         )
 
 
+        else -> {}
     }
 
 }
@@ -256,6 +257,8 @@ private fun LoadedDetailScreen(
                             PeopleList(people = tab.casts)
 
                         }
+
+                        else -> {}
                     }
 
                 }

@@ -10,18 +10,18 @@ server (https://www.themoviedb.org/login)
 
 ## Screenshots
 
-[<img src="meta/screenshots/screenshots_splash_screen" width=160>](meta/screenshots/screenshots_splash_screen.jpg)
-[<img src="meta/screenshots/screenshots_home_screen" width=160>](meta/screenshots/screenshots_home_screen.jpg)
-[<img src="meta/screenshots/screenshots_search_screen" width=160>](meta/screenshots/screenshots_search_screen.jpg)
-[<img src="meta/screenshots/screenshots_search_screen_second" width=160>](meta/screenshots/screenshots_search_screen_second.jpg)
-[<img src="meta/screenshots/screenshots_watch_screen" width=160>](meta/screenshots/screenshots_watch_screen.jpg)
-[<img src="meta/screenshots/screenshots_watch_screen_second" width=160>](meta/screenshots/screenshots_watch_screen_second.jpg)
-[<img src="meta/screenshots/screenshots_detail_screen" width=160>](meta/screenshots/screenshots_detail_screen.jpg)
-[<img src="meta/screenshots/screenshots_detail_screen_about_movie" width=160>](meta/screenshots/screenshots_detail_screen_about_movie.jpg)
-[<img src="meta/screenshots/screenshots_detail_screen_cast_movie" width=160>](meta/screenshots/screenshots_detail_screen_cast_movie.jpg)
-[<img src="meta/screenshots/screenshots_detail_screen_crews_movie" width=160>](meta/screenshots/screenshots_detail_screen_crews_movie.jpg)
-[<img src="meta/screenshots/screenshots_detail_screen_review_movie" width=160>](meta/screenshots/screenshots_detail_screen_review_movie.jpg)
-[<img src="meta/screenshots/screenshots_detail_screen_review_movie_filter" width=160>](meta/screenshots/screenshots_detail_screen_review_movie_filter.jpg)
+[<img src="meta/screenshots/screenshots_splash_screen.jpg" width=160>](meta/screenshots/screenshots_splash_screen.jpg)
+[<img src="meta/screenshots/screenshots_home_screen.jpg" width=160>](meta/screenshots/screenshots_home_screen.jpg)
+[<img src="meta/screenshots/screenshots_search_screen.jpg" width=160>](meta/screenshots/screenshots_search_screen.jpg)
+[<img src="meta/screenshots/screenshots_search_screen_second.jpg" width=160>](meta/screenshots/screenshots_search_screen_second.jpg)
+[<img src="meta/screenshots/screenshots_watch_screen.jpg" width=160>](meta/screenshots/screenshots_watch_screen.jpg)
+[<img src="meta/screenshots/screenshots_watch_screen_second.jpg" width=160>](meta/screenshots/screenshots_watch_screen_second.jpg)
+[<img src="meta/screenshots/screenshots_detail_screen.jpg" width=160>](meta/screenshots/screenshots_detail_screen.jpg)
+[<img src="meta/screenshots/screenshots_detail_screen_about_movie.jpg" width=160>](meta/screenshots/screenshots_detail_screen_about_movie.jpg)
+[<img src="meta/screenshots/screenshots_detail_screen_cast_movie.jpg" width=160>](meta/screenshots/screenshots_detail_screen_cast_movie.jpg)
+[<img src="meta/screenshots/screenshots_detail_screen_crews_movie.jpg" width=160>](meta/screenshots/screenshots_detail_screen_crews_movie.jpg)
+[<img src="meta/screenshots/screenshots_detail_screen_review_movie.jpg" width=160>](meta/screenshots/screenshots_detail_screen_review_movie.jpg)
+[<img src="meta/screenshots/screenshots_detail_screen_review_movie_filter.jpg" width=160>](meta/screenshots/screenshots_detail_screen_review_movie_filter.jpg)
 
 ## Libraries
 
